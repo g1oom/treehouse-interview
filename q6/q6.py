@@ -6,7 +6,8 @@ formats = ('%Y/%m/%d', '%m/%d/%Y', '%d/%m/%Y', '%d %b %Y')
 dateCount = 0
 content = ""
 
-with open("q6/example.txt", "r") as f:
+# assuming text file is named example.txt
+with open("example.txt", "r") as f:
     content = f.read()
 
 content = content.split()
